@@ -22,7 +22,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "http://localhost:4200",
+    origin: "https://glistening-muffin-c9d6de.netlify.app/",         //"http://localhost:4200",
     methods: "GET,POST,PUT,DELETE",
     allowedHeaders: "Content-Type,Authorization",
     credentials: true, // Allow cookies
