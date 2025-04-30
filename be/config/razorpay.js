@@ -1,4 +1,4 @@
-const Razorpay = require('razorpay');
+/*const Razorpay = require('razorpay');
 require('dotenv').config();
 
 const razorpay = new Razorpay({
@@ -6,5 +6,5 @@ const razorpay = new Razorpay({
   key_secret: process.env.RAZORPAY_SECRET,
 });
 
-module.exports = razorpay;
+module.exports = razorpay;*/
 
